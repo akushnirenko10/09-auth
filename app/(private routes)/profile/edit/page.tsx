@@ -2,7 +2,7 @@
 
 import Loading from "@/app/loading";
 import Error from "@/components/Error/Error";
-import { updateMe } from "@/lib/api/clientsApi";
+import { updateMe } from "@/lib/api/clientApi";
 import { useAuthStore } from "@/lib/store/authStore";
 import { useMutation } from "@tanstack/react-query";
 import Image from "next/image";
